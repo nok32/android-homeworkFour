@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/musik_player_background"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:id="@+id/closeBtn"
+        android:layout_gravity="right" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="►"
+            android:textSize="30dp"
+            android:id="@+id/startBtn"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="❚❚"
+            android:textSize="30dp"
+            android:id="@+id/pauseBtn"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="▷▷"
+            android:textSize="30dp"
+            android:id="@+id/fastForwardBtn"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="◁◁"
+            android:textSize="30dp"
+            android:id="@+id/reverseBtn"/>
+    </LinearLayout>
+
+</LinearLayout>
